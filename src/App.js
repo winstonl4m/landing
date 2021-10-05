@@ -1,20 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import React from 'react';
+import React,{Component} from 'react';
 import Home from './components/pages/Home'
 
+
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
 
 function App() {
   return (
     <>
-      <Router>
-        <NavBar></NavBar>
-        <Switch>
-          <Route path='/' exact component ={Home}/>
-        </Switch>
-      </Router>
+      <NavBar/>
+      <Home/>
     </>
   );
 }

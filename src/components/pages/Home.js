@@ -1,22 +1,22 @@
 import '../../App.css'
 import HeroSection from '../HeroSection'
-import React from 'react';
-import Cards from '../Cards';
+import React,{Component} from 'react';
 import CardSection from '../CardSection';
 import About from '../About';
 import ContactForm from '../ContactForm';
 
-function Home(){
-    return(
-        <>
-        <HeroSection/>
-        <About/>
-        <CardSection/>
-        <ContactForm/>
-        
-        </>
-    );
+export default class Home extends Component{
+    render(){
+        return(
+            <>
+            <HeroSection id="hero-section"/>
+            <About id="about-section"/>
+            <CardSection id="project-section"/>
+            <ContactForm id ="contact-section"/>  
+            </>
+        );
+    }
+
 }
 
 
-export default Home;

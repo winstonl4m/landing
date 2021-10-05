@@ -10,7 +10,7 @@ function About() {
                     
                     <br></br>
                     <div className="pic">
-                        <img float="left" src="/images/me-1.jpg" width= "400" />
+                        <img float="left" src="/images/me-2.jpg" width= "500" />
                     </div>
                     <p>Hey, I'm Winston!</p>
                     <p>I am a UBC graduate, with a major in

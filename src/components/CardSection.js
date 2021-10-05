@@ -13,12 +13,7 @@ function CardSection() {
                     src='images/finance-tracker-pic.jpg'
                     text="Finance Tracker "
                     label="JS React"
-                    path='/projects'/>
-                    <Cards 
-                    src='images/finance-tracker-pic.jpg'
-                    text="Finance Tracker "
-                    label="JS React"
-                    path='/projects'/>
+                    path='/projects'/>                  
                     </ul>
                     
                 </div>

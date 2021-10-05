@@ -1,24 +1,55 @@
 import React,{useState} from 'react'
 import './ContactForm.css'
-import FormControl from '@mui/material/FormControl';
-import FormHelperText from '@mui/material/FormHelperText';
-import Input from '@mui/material/Input';
-import InputLabel from '@mui/material/InputLabel';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 
 
-
 function ContactForm() {
-    const [name, setName] = React.useState('');
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const [sentEmail, setSentEmail] = useState(false);
+    const [status, setStatus] = useState("Submit");
 
-    const handleChange = (event) => {
-      setName(event.target.value);
-    };
+
+    const handleSubmit = async (event) => {
+      event.preventDefault();
+
+        let detail = {  
+            email: email,
+            name: name,
+            message : message,
+        }
+        console.log(detail);
+
+        let response = await fetch("http://localhost:5000/contact", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json;charset=utf-8",
+            },
+            body: JSON.stringify(detail),
+            });
+        setStatus("Thanks for the message!");
+        setSentEmail(true);
+        resetForm()
+        let result = await response.json();
+        alert(result.status);    
+    }
+    
+
+
+
+
+
+    const resetForm = () =>{
+        setEmail('');
+        setMessage('');
+        setName('');
+    }
 
 
     return (
-        <div className="form" id="contact">
+        <form className="form" id="contact" onSubmit={handleSubmit}>
             <h1>Contact Me!</h1>
             <br></br>
             <br></br>
@@ -30,6 +61,8 @@ function ContactForm() {
                     label="Email"
                     id="standard-basic"
                     variant="standard"
+                    value = {email}
+                    onChange= {(event) => setEmail(event.target.value)}
                     />
                 <TextField 
                     required = {true}
@@ -37,7 +70,9 @@ function ContactForm() {
                     helperText="Please enter your name" 
                     label="Name"
                     id="standard-basic"
-                    variant="standard"/>
+                    variant="standard"
+                    value = {name}
+                    onChange= {(event) => setName(event.target.value)}/>
                 <TextField 
                     multiline 
                     fullWidth
@@ -46,10 +81,12 @@ function ContactForm() {
                     id="standard-multiline-static" 
                     helperText="Please enter your message" 
                     label="Message"
-                    variant="standard"/>
-                <Button variant="contained">Submit</Button>
+                    variant="standard"
+                    value = {message}
+                    onChange= {(event) => setMessage(event.target.value)}/>
+                <Button type='submit'  variant= "contained" color={sentEmail ? "success": "primary"} >{status}</Button>
             </div>
-        </div>
+        </form>
 
     )
 }
