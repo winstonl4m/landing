@@ -22,7 +22,7 @@ function ContactForm() {
         }
         console.log(detail);
 
-        let response = await fetch("http://localhost:5000/contact", {
+        let response = await fetch("https://boiling-meadow-00556.herokuapp.com/contact", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json;charset=utf-8",
