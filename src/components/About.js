@@ -23,6 +23,8 @@ function About() {
                     courses, I've gained a proficient understanding of languages such as
                     Java, C/C++, Haskell, and Prolog. Most recently, I have learned Python, SQL, and JavaScript(React/Node) during the Covid-19 pandemic. </p>
                     <br></br>
+                    <br></br>
+                    <br></br>
                     <p>As of now, my main focus is expanding my full-stack development capabilities. I have
                     created a few projects utilizing web development with common
                     algorithms, but programming in Java is what I'm most well versed in.
