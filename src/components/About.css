@@ -38,6 +38,10 @@
   }
 
   .pic{
-      float:left
+    float: left;
+  }
+
+  img{
+    border-radius: 25px;
   }
 
