@@ -8,7 +8,7 @@ function About() {
             <div className="about__container">
                 <div className="about__wrapper" >
                     
-                    <br></br>
+                    
                     <div className="pic">
                         <img float="left" src="/images/me-2.jpg" width= "500" />
                     </div>

@@ -6,10 +6,11 @@
   
   h1 {
     text-align: center;
+    padding-bottom: 40px;
   }
   
   .about__container {
-    display: flex;
+    display: table;
     flex-flow: column;
     align-items: center;
     max-width: 1120px;
@@ -21,8 +22,9 @@
   .about__paragraph{
     position: relative;
     margin: 50px 0 45px;
-    display:block;
     text-align: center;
+    display: block;
+    display: table-row;
   }
   
   .about__wrapper {
