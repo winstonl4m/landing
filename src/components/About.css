@@ -17,6 +17,13 @@
     margin: 0 auto;
     text-align: center;
   }
+
+  .about__paragraph{
+    position: relative;
+    margin: 50px 0 45px;
+    display:block;
+    text-align: center;
+  }
   
   .about__wrapper {
     position: relative;

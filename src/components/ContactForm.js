@@ -50,10 +50,11 @@ function ContactForm() {
 
     return (
         <form className="form" id="contact" onSubmit={handleSubmit}>
+            <div className="form__container">
             <h1>Contact Me!</h1>
             <br></br>
             <br></br>
-            <div className="form__container">
+                <div className="form__contact">
                 <TextField 
                     required = {true}
                     fullWidth
@@ -85,6 +86,7 @@ function ContactForm() {
                     value = {message}
                     onChange= {(event) => setMessage(event.target.value)}/>
                 <Button type='submit'  variant= "contained" color={sentEmail ? "success": "primary"} >{status}</Button>
+                </div>
             </div>
         </form>
 
