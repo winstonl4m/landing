@@ -99,6 +99,13 @@
     color: #252e48;
     font-size: 24px;
     line-height: 24px;
+    text-align: center;
+  }
+
+  .cards__item__about{
+    color:grey;
+    font-size: 14px;
+    margin-top: 10px;
   }
   
   @media only screen and (min-width: 1200px) {

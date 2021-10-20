@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function Cards(props) {
     return (
         <>
@@ -14,6 +15,7 @@ function Cards(props) {
                     </figure>
                     <div className="cards__item__info">
                         <h5 className = "cards__item__text">{props.text}</h5>
+                        <h6 className = "cards__item__about">{props.about}</h6>
                     </div>
                 </a>
 

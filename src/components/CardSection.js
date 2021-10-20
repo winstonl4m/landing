@@ -11,8 +11,9 @@ function CardSection() {
                     <ul className="cards__items">
                     <Cards 
                     src='images/finance-tracker-pic.jpg'
-                    text="Finance Tracker "
-                    label="JS React"
+                    text="Finance Tracker"
+                    about="FINANCE TRACKER TO RECORD YOUR INCOME/EXPENSES"
+                    label="ReactJS"
                     path='/projects'/>                  
                     </ul>
                     
