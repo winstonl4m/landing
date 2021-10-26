@@ -15,7 +15,7 @@ const skillsData = [
     {
         "type": "Java",
         "level": "80%",
-        "colour":"blue"
+        "colour":"#00008B"
     },
     {
         "type": "Python",
