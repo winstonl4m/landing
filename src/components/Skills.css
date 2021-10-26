@@ -1,0 +1,67 @@
+
+.skills{
+    text-align: center;
+    background: white;
+    padding-bottom: 100px;
+
+
+}
+
+* {box-sizing:border-box}
+
+
+.skills_container{
+    position: relative;
+    max-width: 720px;
+    width: 60%;
+
+
+}
+
+.bars{
+    width: 40%;
+    float: right;
+    padding: 0;
+    text-align: left;
+    align-items: center;
+}
+
+
+.bars .skills_container{
+    margin-top: 30px;
+    list-style: none;
+}
+
+.bars li {
+    position: relative;
+    margin-bottom: 60px;
+    background-color: #C0C0C0;
+    height: 42px;
+    border-radius: 0px;
+}
+
+.bar-expand{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding-right: 24px;
+    background: #313131;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 0px;
+}
+
+.bars li em {
+    color: #313131;
+    text-transform: uppercase;
+    font-weight: normal;
+    position: relative;
+    top: -36px;
+}
+/*.react {width: 75%; background-color: #04AA6D;} /* Green */
+/*.node {width: 70%; background-color: #2196F3;} /* Blue */
+/*.java {width: 100%; background-color: #f44336;} /* Red */
+/*.python {width: 60%; background-color: rgb(219, 219, 67);} /* Dark Grey */
+/*.cc {width: 55%; background-color: purple;} */

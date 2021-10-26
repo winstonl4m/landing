@@ -51,7 +51,7 @@ function ContactForm() {
     return (
         <form className="form" id="contact" onSubmit={handleSubmit}>
             <div className="form__container">
-            <h1>Contact Me!</h1>
+            <h1>Contact Me!<i className="fas fa-envelope"></i></h1>
             <br></br>
             <br></br>
                 <div className="form__contact">
