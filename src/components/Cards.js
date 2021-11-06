@@ -5,7 +5,7 @@ function Cards(props) {
     return (
         <>
             <li className = "cards__item">
-                <a href="https://gallant-mcclintock-9e3fa0.netlify.app/" target="_blank" >
+                <a href={props.link_url}  target="_blank" >
                     <div className= "cards__item__link">
                     <figure className = "cards__item__pic-wrap" data-category={props.label}>
                         <img 
@@ -20,6 +20,8 @@ function Cards(props) {
                         <h6 className = "cards__item__about">{props.about}</h6>
                     </div>
                 </a>
+
+                
 
             </li>
         </>

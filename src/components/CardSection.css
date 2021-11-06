@@ -29,15 +29,16 @@ a {
   }
   
   .cards__items {
+    list-style-type: none;
     margin-bottom: 30px;
   }
   
   .cards__item {
-    display: flex;
+    
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
-    width: 100%;
+    width: 50%;
   }
   
   .cards__item__link {
@@ -56,7 +57,7 @@ a {
     position: relative;
     width: 100%;
     padding-top: 100%;
-    overflow: hidden;
+    overflow: cover;
   }
   
   .fade-img {
@@ -106,12 +107,14 @@ a {
     font-size: 24px;
     line-height: 24px;
     text-align: center;
+    width: 100%;
   }
 
   .cards__item__about{
     color:grey;
     font-size: 14px;
     margin-top: 10px;
+    width: 100%;
   }
   
   @media only screen and (min-width: 1200px) {

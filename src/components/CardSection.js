@@ -10,13 +10,22 @@ function CardSection() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                     <Cards 
+                    link_url ="https://winstonl4mfinancetracker.netlify.app/"
                     src='images/finance-tracker-pic.jpg'
                     text="Finance Tracker"
                     about="FINANCE TRACKER TO RECORD YOUR INCOME/EXPENSES"
                     label="ReactJS"
                     path='/projects'/>                  
-                    </ul>
                     
+                    
+                    <Cards
+                    link_url = "https://winstagram.netlify.app/"
+                    src='images/winsta-pic.jpg'
+                    text="Winstagram"
+                    about="PHOTO GALLERY FOR UPLOADING IMAGES"
+                    label="ReactJS"
+                    path='/projects'/>                  
+                    </ul>
                 </div>
             </div>
 
