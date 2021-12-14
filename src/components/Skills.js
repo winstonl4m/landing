@@ -56,18 +56,29 @@ const skills = skillsData.map((skills)=>{
 function Skills() {
     return (
             <div className="skills" >
-                <h2>EDUCATION</h2>
-                <div className="education_container">
-                    <h3> University of British Columbia</h3>
-                    <em> Bachelors of Science, Statistics</em>
-                    <p> Sept 2015 - May 2020</p>
 
+                <div className="education_container">
+                    <div className="education_section">
+                            <h2>EDUCATION</h2>
+                    </div> 
+                    <div className="education_info">
+                        <h3> University of British Columbia</h3>
+                        <em> Bachelors of Science, Statistics</em>
+                        <p> Sept 2015 - May 2020</p>
+                    </div>
                 </div>
+                
                 <div className="thin_bar"></div>
-                <h2>SKILLS</h2>
-                <div className="bars">
-                    <ul className="skills_container">{skills}</ul>
-                </div> 
+
+                <div className = "skills_container">
+                    <div className="skills_section">
+                        <h2>SKILLS</h2>
+                    </div>
+                    <div className="bars">
+                        <ul className="skills_info">{skills}</ul>
+                    </div> 
+                </div>
+                
             </div>
     )
 }
