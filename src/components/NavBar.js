@@ -4,11 +4,14 @@ import './NavBar.css';
 
 
 function NavBar() {
+
+    //state variable for clicked icon bar
     const [click, setClick] = useState(false);
 
 
     const handleClick = () => setClick(!click);
 
+    //closes icon bar when window is minimized
     const closeMobileMenu = () => setClick(false);
 
 
@@ -17,10 +20,7 @@ function NavBar() {
             <nav className ="navbar">
                 <div className = "navbar-container">
                     
-                    {/* <Link to= "/" className = "navbar-logo" onClick= {closeMobileMenu}>
-                        WINSTON LAM
-
-                    </Link> */}
+                    
                     <div className = 'menu-icon' onClick = {handleClick}>
                         <i className = {click ? 'fas fa-times' :'fas fa-bars'}></i>
                     </div>

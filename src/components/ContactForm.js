@@ -5,13 +5,21 @@ import Button from '@mui/material/Button';
 
 
 function ContactForm() {
+    //state variables for contact form
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+
+
+
+    // state variable for when email is sent
     const [sentEmail, setSentEmail] = useState(false);
+
+    // state variable for send button when clicked
     const [status, setStatus] = useState("Submit");
 
-
+    // await only works with async
+    //async turns a function into a promise
     const handleSubmit = async (event) => {
       event.preventDefault();
 
@@ -20,8 +28,9 @@ function ContactForm() {
             name: name,
             message : message,
         }
-        console.log(detail);
 
+        // 2 inputs, URL and object
+        // posts email/name/message to express server
         let response = await fetch("https://boiling-meadow-00556.herokuapp.com/contact", {
             method: "POST",
             headers: {

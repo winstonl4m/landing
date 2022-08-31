@@ -15,6 +15,15 @@ h2{
 
 .education_info > p{
     color: #202020;
+    font-size: 14px;
+}
+
+.education_info > ul{
+    padding-top: 10px;
+}
+
+li{
+    padding-top: 10px;
 }
 
 .education_section{

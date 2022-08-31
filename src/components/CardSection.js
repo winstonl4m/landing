@@ -15,7 +15,7 @@ function CardSection() {
                     text="Finance Tracker"
                     about="FINANCE TRACKER TO RECORD YOUR INCOME/EXPENSES"
                     label="ReactJS"
-                    path='/projects'/>                  
+                    />                  
                     
                     
                     <Cards
@@ -23,8 +23,8 @@ function CardSection() {
                     src='images/winsta-pic.jpg'
                     text="Winstagram"
                     about="PHOTO GALLERY FOR UPLOADING IMAGES"
-                    label="ReactJS"
-                    path='/projects'/>                  
+                    label="ReactJS/Firebase"
+                    />                  
                     </ul>
                 </div>
             </div>
