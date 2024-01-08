@@ -1,10 +1,10 @@
 import '../../App.css'
 import HeroSection from '../HeroSection'
 import React,{Component} from 'react';
-import CardSection from '../CardSection';
-import About from '../About';
-import ContactForm from '../ContactForm';
-import Skills from '../Skills';
+import CardSection from '../Projects/CardSection';
+import About from '../About/About';
+import ContactForm from '../ContactForm/ContactForm';
+import Skills from '../Skills/Skills';
 
 export default class Home extends Component{
     render(){
