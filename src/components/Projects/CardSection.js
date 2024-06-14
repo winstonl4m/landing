@@ -19,7 +19,7 @@ function CardSection() {
                     
                     
                     <Cards
-                    link_url = "https://winstagram.netlify.app/"
+                    link_url = "https://master--winstaphotogallery.netlify.app/"
                     src='images/winsta-pic.jpg'
                     text="Winstagram"
                     about="PHOTO GALLERY FOR UPLOADING IMAGES"

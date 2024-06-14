@@ -27,22 +27,22 @@ function NavBar() {
                     <ul className = {click ? 'nav-menu active' : 'nav-menu'}>
                         <li className = 'nav-item'>
                             <Link to='hero' activeClass="active" spy={true} smooth={true} className = 'nav-links' onClick = {closeMobileMenu}>
-                                HOME
+                                Home
                             </Link>
                         </li>
                         <li className = 'nav-item'>
                             <Link to='about' spy={true} smooth={true} className = 'nav-links' onClick = {closeMobileMenu}>
-                                ABOUT
+                                About
                             </Link>
                         </li>
                         <li className = 'nav-item'>
                             <Link to='projects' spy={true} smooth={true} className = 'nav-links' onClick = {closeMobileMenu}>
-                                PROJECTS
+                                Projects
                             </Link>
                         </li>
                         <li className = 'nav-item'>
                             <Link to='contact' spy={true} smooth={true} className = 'nav-links' onClick = {closeMobileMenu}>
-                                CONTACT
+                                Contact
                             </Link>
                         </li>
                         <li className = 'nav-item'>
