@@ -12,13 +12,35 @@ const education = {
 
 const jobsArray = [
     {
-        jobTitle:"Junior Software Developer",
+        jobTitle:"QA Engineer",
+        company:"Meta",
+        duration: "Jun 2024 - Current",
+        jobDesc:[
+            "Developed and executed comprehensive test cases based on the detailed functional requirements for products such as Facebook, WhatsApp, Messenger, and Instagram across platforms such as iOS and Android.",
+            "Created and maintained detailed documentation of test cases, test results, and defect logs using TestRail, ensuring clarity and consistency in the testing process.",
+            "Reviewed test cases created by other team members, providing feedback and guidance to ensure quality and accuracy. Oversaw and distributed these test cases with offshore team members, fostering a collaborative work environment.",
+        ]
+    
+    },
+    {
+        jobTitle:"Tech Engineer",
+        company:"lululemon",
+        duration: "Apr 2024 - Jun 2024",
+        jobDesc:[
+            "Created and analyzed Oracle SQL data-cleaning queries to remove 13 billion rows of non-NA data from the NA database in production.",
+            "Created Splunk dashboards in SPL which searches, monitors, and analyzes machine-generated data, displaying metrics and problem diagnostics for business operations.",
+            "Optimized existing Splunk dashboards in production by improving the speed, which drastically reduced the time taken to query results from 8s to ~3s.",
+        ]
+    
+    },
+    {
+        jobTitle:"Software Developer",
         company:"HCL Technologies Limited",
         duration: "Jun 2023 - Current",
         jobDesc:[
-            "Developing a mobile application using React Native which allows users to create an account, upload videos and articles, and view other user’s posts, stories, and videos",
-            "Created a POS System for a client using Angular 14, allowing agents to perform and conduct customer sales, which involves searching/creating customers, fetching exchange rates and performing money transfers",
-            "Created a web scraper tool using React, Node.js and Puppeteer to display and compare various exchange rates that are offered between a multitude of financial services such as Western Union, Wise, and Remitly",
+            "Created a mobile application using React Native, Typescript, and OpenAI to showcase the use cases of Generative AI. Users can perform TTI, TTS, and STT, image generation, as well as moderations.",
+            "Created a web scraper application for a big-name financial service corporation using React, Node.js, and the Puppeteer library to scrape and display the exchange rates for various money transfer services such as Western Union, Wise, and Remitly. This application generated millions in revenue for HCLTech.",
+            "Built a full-stack web application using React, Typescript, Next.js, Golang, MongoDB, Vercel, and AWS EC2 which allows users and admins to register and create an account for managing credit cards. Admins can create their own credit card design, and users can request to use these credit cards. This application acquired a big-name client for HCLTech."
         ]
     
     },
@@ -27,9 +49,9 @@ const jobsArray = [
         company:"Aether Automation Inc.",
         duration: "Jan 2022 - Jun 2023",
         jobDesc:[
-            "Complete mastery of Zoho Deluge and its 25+ applications in Zoho Suite",
-            "Collaborated with project managers to design, test, and develop automation workflow processes for production scale SaaS applications",
-            "Built web applications with Zoho’s development platform with REST API proficiency for integration to third-party services such as WooCommerce, Canvas LMS, and Xero"
+            "Complete mastery of Zoho Deluge and its 25+ applications in Zoho Suite.",
+            "Collaborated with project managers to design, test, and develop automation workflow processes for production scale SaaS applications.",
+            "Built web applications with Zoho’s development platform with REST API proficiency for integration to third-party services such as WooCommerce, Canvas LMS, and Xero."
         ]
     
     }
