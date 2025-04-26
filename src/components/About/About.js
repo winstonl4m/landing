@@ -4,15 +4,12 @@ import './About.css'
 function About() {
     return (
         <div className="about" id="about">
-            <h1>About Me</h1>
             <div className="about__container">
                 <div className="about__wrapper" >
-                    
-                    
+                    <h1>About Me</h1>
                     <div className="pic">
                         <img float="left" src="/images/me-2.jpg" width= "500" />
                     </div>
-
                     <div className= "about__paragraph">
                         <p>Hey, I'm Winston!</p>
                         <br></br>

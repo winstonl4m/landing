@@ -10,7 +10,9 @@
   }
   
   .about__container {
-    display: table;
+    /* display: table; */
+    display:flex;
+    justify-content: center;
     flex-flow: column;
     align-items: center;
     max-width: 1120px;
@@ -41,14 +43,14 @@
 
   .pic{
     float: left;
-    margin-right: 50px;
+    /* margin-right: 50px; */
   }
 
   img{
     border-radius: 25px;
   }
 
-  @media screen and (max-width: 960px) {
+  /* @media screen and (max-width: 960px) {
     .about__container {
         font-size: 15px;
         margin-top: -150px;
@@ -76,9 +78,9 @@
       object-fit: cover;
     }
 
-}
+} */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .about__paragraph {
         font-size: 15px;
         margin-top: -100px;
@@ -100,7 +102,6 @@
       
     }
 
-
     .about > h1 {
       font-size: 15px;
       text-align: center;
@@ -117,4 +118,4 @@
     .img{
       object-fit: cover;
     }
-}
+} */

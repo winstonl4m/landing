@@ -108,6 +108,8 @@ function Skills() {
                     <div className='skills_item_container'>
                         <div className='skillsGrid'>
                             <SkillItem source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"/>
+                            <SkillItem source="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg"/>
+                            <SkillItem source="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg"/>
                             <SkillItem source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
                             <SkillItem source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
                             <SkillItem source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
